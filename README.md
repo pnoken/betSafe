@@ -1,8 +1,7 @@
 # Bet Safe
 
 <h4 align="center">
-  <a href="https://docs.scaffoldeth.io">Documentation</a> |
-  <a href="https://scaffoldeth.io">Website</a>
+  <a href="https://notion.so">Documentation</a>
 </h4>
 
 🧪 We present an innovative and disruptive opportunity at the intersection of blockchain technology and decentralized finance (DeFi). Our project aims to create an on-chain betting Decentralized Autonomous Organization (DAO) that revolutionizes traditional betting platforms.
@@ -21,6 +20,8 @@ DAO Treasury: The DAO treasury is a decentralized pool of funds that serves two 
 
 Rewarding Losers: The collected fees are used to reward users who lose their bets, creating a fair and inclusive ecosystem.
 Governance and Upgrades: The treasury is governed by the community, allowing token holders to make decisions and propose upgrades, ensuring the platform evolves with user needs.
+
+
 ⚙️ Built using NextJS, RainbowKit, Hardhat, Wagmi, and Typescript.
 
 - ✅ **Contract Hot Reload**: Your frontend auto-adapts to your smart contract as you edit it.
