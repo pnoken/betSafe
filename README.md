@@ -1,7 +1,7 @@
 # Bet Safe
 
 <h4 align="center">
-  <a href="https://notion.so">Documentation</a>
+  <a href="[https://notion.so](https://www.notion.so/926ce52f9e9249e58cec63e96f3ee205?pvs=4)">Documentation</a>
 </h4>
 
 🧪 We present an innovative and disruptive opportunity at the intersection of blockchain technology and decentralized finance (DeFi). Our project aims to create an on-chain betting Decentralized Autonomous Organization (DAO) that revolutionizes traditional betting platforms.
