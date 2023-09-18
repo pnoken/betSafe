@@ -1,12 +1,26 @@
-# 🏗 Scaffold-ETH 2
+# Bet Safe
 
 <h4 align="center">
   <a href="https://docs.scaffoldeth.io">Documentation</a> |
   <a href="https://scaffoldeth.io">Website</a>
 </h4>
 
-🧪 An open-source, up-to-date toolkit for building decentralized applications (dapps) on the Ethereum blockchain. It's designed to make it easier for developers to create and deploy smart contracts and build user interfaces that interact with those contracts.
+🧪 We present an innovative and disruptive opportunity at the intersection of blockchain technology and decentralized finance (DeFi). Our project aims to create an on-chain betting Decentralized Autonomous Organization (DAO) that revolutionizes traditional betting platforms.
 
+The Problem:
+Traditional betting platforms suffer from issues of trust, transparency, and fairness. Users often question the integrity of outcomes and the handling of funds. Furthermore, the industry lacks a mechanism to reward those on the losing side.
+
+Our Solution:
+Our solution leverages blockchain technology to build a transparent, trustless, and community-driven betting platform. Here's how it works:
+
+Smart Contracts: We develop robust smart contracts that manage the entire betting process. Users can place bets securely, and outcomes are determined through transparent and auditable mechanisms.
+
+1% Fee Collection: We introduce a groundbreaking feature where 1% of betting wins are automatically collected as fees. These fees are not profit for us; instead, they are credited to the DAO treasury.
+
+DAO Treasury: The DAO treasury is a decentralized pool of funds that serves two critical purposes:
+
+Rewarding Losers: The collected fees are used to reward users who lose their bets, creating a fair and inclusive ecosystem.
+Governance and Upgrades: The treasury is governed by the community, allowing token holders to make decisions and propose upgrades, ensuring the platform evolves with user needs.
 ⚙️ Built using NextJS, RainbowKit, Hardhat, Wagmi, and Typescript.
 
 - ✅ **Contract Hot Reload**: Your frontend auto-adapts to your smart contract as you edit it.
