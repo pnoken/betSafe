@@ -1,17 +1,19 @@
-import { BettingContractInstance } from "./types"; // Import the generated contract typings
+import { BettingContract } from "../typechain-types"; // Import the generated contract typings
 import { ethers } from "hardhat";
 import { expect } from "chai";
 
-const BettingContract = artifacts.require("BettingContract"); // Import the contract artifact
-
-describe("BettingContract", (accounts) => {
-  let betting: BettingContractInstance;
+describe("BettingContract", function (accounts) {
+  
+  betting: BettingContract;
 
   beforeEach(async () => {
-    betting = await BettingContract.deployed();
+    const [owner] = await ethers.getSigners();
+    const bettingContractFactory = await ethers.getContractFactory("BettingContract");
+    betting = (await bettingContractFactory.deploy(owner.address)) as BettingContract;
+    await betting.deployed();
   });
 
-  it("should create a game", async () => {
+    it("should create a game", async () => {
     const gameDescription = "Test Game";
     await betting.createGame(gameDescription);
     const gameCount = await betting.numGames();
@@ -49,5 +51,4 @@ describe("BettingContract", (accounts) => {
     assert.isFalse(gameIsOpen, "Game should be closed");
   });
 
-  // Add more test cases for other contract functions here...
 });
